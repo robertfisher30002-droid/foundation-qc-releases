@@ -1,5 +1,5 @@
 {
-  "version": "1.4.3",
-  "url": "https://github.com/robertfisher30002-droid/foundation-qc-releases/releases/download/v1.4.3/FoundationQC-Setup-1.4.3.exe",
-  "notes": "plant test"
+  "version": "1.4.4",
+  "url": "https://github.com/robertfisher30002-droid/foundation-qc-releases/releases/download/v1.4.4/FoundationQC-Setup-1.4.4.exe",
+  "notes": "File Folder closes now when downloading update"
 }
