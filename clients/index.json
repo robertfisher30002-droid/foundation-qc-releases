@@ -1,0 +1,11 @@
+{
+  "clients": [
+    {
+      "code": "ladwp",
+      "name": "LADWP",
+      "version": "0.1-onboarded",
+      "updated": "2026-09-10",
+      "notes": "created via onboarding (universal readers, no profile)"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "format": "fqc-client-pack",
+  "pack_version": 1,
+  "code": "ladwp",
+  "name": "LADWP",
+  "client_version": "0.1-onboarded",
+  "exported_at": "2026-09-10T11:19:00",
+  "app_version": "1.1.0",
+  "library_config": {
+    "name": "LADWP",
+    "client_code": "ladwp",
+    "version": "0.1-onboarded",
+    "effective_date": "2026-09-10",
+    "foundation_types": [
+      "drilled_shaft",
+      "direct_embed"
+    ],
+    "source_document": "created via onboarding (universal readers, no profile)",
+    "skip_checks": [
+      "ab_vendor_lookup"
+    ],
+    "design_params": {
+      "min_concrete_psi": 4000,
+      "standard_reveal_ft": 2
+    },
+    "performance_criteria": [
+      {
+        "label": "TSP Foundation",
+        "applies_to": {
+          "types": [
+            "monopole",
+            "pole",
+            "steel pole",
+            "tsp"
+          ],
+          "functions": [],
+          "angle_min": null,
+          "angle_max": null,
+          "default": false
+        },
+        "total_defl_in": 4,
+        "recov_defl_in": null,
+        "total_rot_deg": 2,
+        "recov_rot_deg": null,
+        "vert_settle_in": 1
+      },
+      {
+        "label": "SSL Foundation",
+        "applies_to": {
+          "types": [
+            "lattice",
+            "ssl",
+            "tower"
+          ],
+          "functions": [],
+          "angle_min": null,
+          "angle_max": null,
+          "default": false
+        },
+        "total_defl_in": 2,
+        "recov_defl_in": null,
+        "total_rot_deg": 1,
+        "recov_rot_deg": null,
+        "vert_settle_in": 1
+      }
+    ]
+  },
+  "calc_profiles": {}
+}
